@@ -1,4 +1,3 @@
-/* forces footer to bottom */
 body {
     margin: 0;
     position: relative;
@@ -15,7 +14,6 @@ body {
     padding-bottom: 10px;
 }
 
-/* forces footer to bottom */
 .footer {
     width: 100%;
     position: fixed;
@@ -23,13 +21,58 @@ body {
 }
 
 .heading {
+    margin: 0;
     color: white;
-    font-size: 32px;
+    font-size: 48px;
     font-weight: bold;
     font-family: "Times New Roaman", sans-serif;
-    margin: 0;
 }  
 
 .footer .heading{
     font-size: 16px;
+}
+
+.list-container {
+    width: 100%;
+    text-align: center;
+}
+
+.list-ul {
+    width: 70%;
+    margin: auto;
+    list-style: none;
+}
+
+a {
+    color:#a0937f; /* Unvisited link  */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 32px;
+}         
+a:visited {color:#a0937f;} /* Visited link    */
+a:hover {color:#a0937f;}   /* Mouse over link */
+a:active {color:#a0937f;}  /* Selected link   */
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+img {
+    width: 200px;
+    height: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#chicken-img {
+    width: 265px;
+}
+
+.img-container {
+    width: 100%;
+    text-align: center;
 }
