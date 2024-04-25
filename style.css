@@ -37,9 +37,16 @@ body {
     text-align: center;
 }
 
-.list-ul {
-    width: 70%;
+.list-ul,
+.list-ol {
+    width: 30%;
     margin: auto;
+    color: #a0937f;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.list-ul {
     list-style: none;
 }
 
@@ -62,17 +69,27 @@ a:active {color:#a0937f;}  /* Selected link   */
 }
 
 img {
-    width: 200px;
+    width: 300px;
     height: auto;
     margin-left: 25px;
     margin-right: 25px;
 }
 
 #chicken-img {
-    width: 265px;
+    width: 365px;
 }
 
 .img-container {
     width: 100%;
     text-align: center;
+}
+
+.recipe-body {
+    text-align: center;
+}
+
+.description {
+    width: 50%;
+    margin: 0 auto;
+    color: #a0937f;
 }
