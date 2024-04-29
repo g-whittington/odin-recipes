@@ -35,12 +35,13 @@ body {
 .list-container {
     width: 100%;
     text-align: center;
+    margin: 0 auto;
 }
 
 .list-ul,
 .list-ol {
     width: 30%;
-    margin: auto;
+    margin: 0 auto;
     color: #a0937f;
     font-weight: bold;
     font-size: 24px;
@@ -60,14 +61,6 @@ a:visited {color:#a0937f;} /* Visited link    */
 a:hover {color:#a0937f;}   /* Mouse over link */
 a:active {color:#a0937f;}  /* Selected link   */
 
-.vertical-center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
 img {
     width: 300px;
     height: auto;
@@ -82,6 +75,7 @@ img {
 .img-container {
     width: 100%;
     text-align: center;
+    margin: 0 auto;
 }
 
 .recipe-body {
